@@ -181,7 +181,8 @@ Estimated runtime: **about 7 minutes** for the default KRAS example. Our referen
 redistributed here. For this demonstration, we provide a smaller chemical space
 of 44,944 building blocks and three reactions derived from
 [SynSpace](https://github.com/whitead/synspace), with precomputed reaction-to-building-block
-mappings. Please contact us if you want to use synthesizable design with Enamine REAL.
+mappings. 
+If you want to use synthesizable design with Enamine REAL, please [request a license](https://enamine.atlassian.net/servicedesk/customer/portal/23/group/312/create/3814) directly from Enamine and refer to the [REAL Input Data (RID) reference guide](https://jirasync.blob.core.windows.net/public/REAL_Input_Data_RID_Reference_Guide.pdf) for more information.
 
 Download the SynSpace data from Zenodo:
 ```bash
