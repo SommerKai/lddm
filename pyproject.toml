@@ -31,10 +31,10 @@ dependencies = [
 
 [project.optional-dependencies]
 cpu = [
-    "torch==2.6.0+cpu",
+    "torch==2.6.0",
     "lightning>=2.3.3",
     "torch-geometric==2.7.0",
-    "torch-scatter==2.1.2+pt26cpu",
+    "torch-scatter==2.1.2",
 ]
 cuda = [
     "torch==2.6.0+cu124",
