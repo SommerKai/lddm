@@ -27,6 +27,7 @@ dependencies = [
     "einops>=0.8.0",
     "tqdm",
     "setuptools",
+    "synspace>=1.0.0",
 ]
 
 [project.optional-dependencies]

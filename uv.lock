@@ -715,6 +715,15 @@ wheels = [
 ]
 
 [[package]]
+name = "importlib-resources"
+version = "7.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e4/06/b56dfa750b44e86157093bc8fca0ab81dccbf5260510de4eaf1cb69b5b99/importlib_resources-7.1.0.tar.gz", hash = "sha256:0722d4c6212489c530f2a145a34c0a7a3b4721bc96a15fada5930e2a0b760708", size = 44985, upload-time = "2026-04-12T16:36:09.232Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8a/db/55a262f3606bebcae07cc14095338471ad7c0bbcaa37707e6f0ee49725b7/importlib_resources-7.1.0-py3-none-any.whl", hash = "sha256:1bd7b48b4088eddb2cd16382150bb515af0bd2c70128194392725f82ad2c96a1", size = 37232, upload-time = "2026-04-12T16:36:08.219Z" },
+]
+
+[[package]]
 name = "ipykernel"
 version = "7.4.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1101,6 +1110,7 @@ dependencies = [
     { name = "rdkit" },
     { name = "scipy" },
     { name = "setuptools" },
+    { name = "synspace" },
     { name = "tqdm" },
     { name = "useful-rdkit-utils" },
 ]
@@ -1149,6 +1159,7 @@ requires-dist = [
     { name = "rdkit", specifier = "==2023.9.6" },
     { name = "scipy", specifier = "==1.13.0" },
     { name = "setuptools" },
+    { name = "synspace", specifier = ">=1.0.0" },
     { name = "torch", marker = "extra == 'cpu'", specifier = "==2.6.0", index = "https://download.pytorch.org/whl/cpu", conflict = { package = "lddm", extra = "cpu" } },
     { name = "torch", marker = "extra == 'cuda'", specifier = "==2.6.0+cu124", index = "https://download.pytorch.org/whl/cu124", conflict = { package = "lddm", extra = "cuda" } },
     { name = "torch-geometric", marker = "extra == 'cpu'", specifier = "==2.7.0" },
@@ -2334,6 +2345,18 @@ wheels = [
 ]
 
 [[package]]
+name = "skunk"
+version = "1.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a4/7a/97df99154b35f9342175383ff51716ad0ee8b990d33faebbe7990e06a70a/skunk-1.3.0.tar.gz", hash = "sha256:a42c672ad08c7d5dcf174345ee3a12bc7f2c0c7182c3c9fd75548cc7729676b6", size = 6776, upload-time = "2023-11-27T17:18:49.165Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/75/89/a3f02a03a0468c59b7692204b6e8b54aec539fc3595ca3e8f133ab2d70e7/skunk-1.3.0-py3-none-any.whl", hash = "sha256:c7f0e11dcc56feb9182a5806d68d4753f5abb86f634ea3b1b303177b0d396624", size = 6497, upload-time = "2023-11-27T17:18:48.113Z" },
+]
+
+[[package]]
 name = "smmap"
 version = "5.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -2402,6 +2425,24 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ca/99/5a5b6f19ff9f083671ddf7b9632028436167cd3d33e11015754e41b249a4/sympy-1.13.1.tar.gz", hash = "sha256:9cebf7e04ff162015ce31c9c6c9144daa34a93bd082f54fd8f12deca4f47515f", size = 7533040, upload-time = "2024-07-19T09:26:51.238Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl", hash = "sha256:db36cdc64bf61b9b24578b6f7bab1ecdd2452cf008f34faa33776680c26d66f8", size = 6189177, upload-time = "2024-07-19T09:26:48.863Z" },
+]
+
+[[package]]
+name = "synspace"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "importlib-resources" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "rdkit" },
+    { name = "requests" },
+    { name = "skunk" },
+    { name = "tqdm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/39/af/0281bdea1885b60115b774bc6e3329871549d7c9057ec35b7347b6412903/synspace-1.0.0.tar.gz", hash = "sha256:dd0d71a7d07ea3ca33cad5034a275ee09ddc7337f3c08d6601da7b3de8abf92f", size = 2671862, upload-time = "2025-04-24T22:24:53.877Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e8/bf/59db2282ab184019bfed6e92d060ed815a90636106ee24e9bd26ee842911/synspace-1.0.0-py3-none-any.whl", hash = "sha256:1bc1da845e08e4f0690801a208362f2e64df63420d026d811eee9ea40a36d6fb", size = 2671024, upload-time = "2025-04-24T22:24:52.092Z" },
 ]
 
 [[package]]
