@@ -8,6 +8,10 @@ checkpoints/
 dist/
 build/
 *.egg-info/
+# Data directory - ignore actual data files but allow DVC files
+data/*
+!data/*.dvc
+!data/.gitkeep
 
 # User-supplied geometry reference and derived caches
 data/validity3d/
