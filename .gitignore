@@ -18,3 +18,5 @@ data/chemical_spaces/
 
 # Output files
 output/
+
+.env

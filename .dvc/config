@@ -1,0 +1,8 @@
+[core]
+    analytics = false
+    remote = ds-s3
+    autostage = true
+['remote "ds-s3"']
+    url = s3://876551252979-ds-dvc-repo/lddm
+    region = us-east-1
+    profile = propcalc.np
